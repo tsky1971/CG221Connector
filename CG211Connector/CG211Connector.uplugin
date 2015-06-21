@@ -1,0 +1,18 @@
+{
+	"FileVersion": 3,
+	"FriendlyName": "CG211Connector",
+	"Version": 1,
+	"VersionName": "1.0",
+	"CreatedBy": "tsky",
+	"CreatedByURL": "",
+	"Category": "CG221",
+	"Description": "",
+	"EnabledByDefault": false,
+	"Modules": [
+		{
+			"Name": "CG211Connector",
+			"Type": "Developer",
+			"LoadingPhase": "Default"
+		}
+	]
+}
