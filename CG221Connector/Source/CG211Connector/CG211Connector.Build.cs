@@ -4,12 +4,13 @@ using UnrealBuildTool;
 
 public class CG211Connector : ModuleRules
 {
-	public CG211Connector(TargetInfo Target)
+	public CG211Connector(ReadOnlyTargetRules Target) : base(Target)
 	{
-		
-		PublicIncludePaths.AddRange(
+        PCHUsage = ModuleRules.PCHUsageMode.UseExplicitOrSharedPCHs;
+
+        PublicIncludePaths.AddRange(
 			new string[] {
-				"CG211Connector/Public"
+                "CG211Connector/Public",
 
 				// ... add public include paths required here ...
 			}
@@ -43,7 +44,7 @@ public class CG211Connector : ModuleRules
 				"ShaderCore",
 				"HeadMountedDisplay",
 				"Slate",
-				"SlateCore",
+				"SlateCore"
 				// ... add other public dependencies that you statically link with here ...
 			}
 			);

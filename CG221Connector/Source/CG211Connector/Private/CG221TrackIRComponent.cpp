@@ -24,11 +24,11 @@
 	OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 **/
-
-#include "CG211ConnectorPrivatePCH.h"
 #include "CG221TrackIRComponent.h"
 
 #include "oscpkt.hh"
+#include "CG211ConnectorPrivatePCH.h"
+
 
 FCriticalSection g_CriticalSectionTrackIR;
 FTrackIR g_TrackIR;
@@ -40,6 +40,7 @@ UCG221TrackIRComponent::UCG221TrackIRComponent(const FObjectInitializer & Object
 	PrimaryComponentTick.bCanEverTick = true;
 	bWantsInitializeComponent = true;
 	bAutoActivate = true;
+	UdpPort = 2000;
 	SetComponentTickEnabled(true);
 }
 
@@ -55,12 +56,12 @@ void UCG221TrackIRComponent::InitializeComponent()
 {
 	Super::InitializeComponent();
 	UE_LOG(CG221ConnectorLog, Warning, TEXT("UCG221TrackIRComponent::InitializeComponent()"));
-	g_TrackIR.NewDataFlag = false;
+	bNewDataFlag = false;
 
 	if (m_pSocket != NULL) {
 		DestroySocket(m_pSocket);
 	}
-	m_pSocket = CreateUdpSocket(7000);
+	m_pSocket = CreateUdpSocket(UdpPort);
 
 }
 
@@ -69,7 +70,7 @@ void UCG221TrackIRComponent::UninitializeComponent()
 {
 	Super::UninitializeComponent();
 	UE_LOG(CG221ConnectorLog, Warning, TEXT("UCG221TrackIRComponent::UninitializeComponent()"));
-	g_TrackIR.NewDataFlag = false;
+	bNewDataFlag = false;
 
 	if (m_pSocket != NULL) {
 		DestroySocket(m_pSocket);
@@ -91,8 +92,8 @@ void UCG221TrackIRComponent::TickComponent(float DeltaTime, ELevelTick TickType,
 	//UE_LOG(CG221ConnectorLog, Warning, TEXT("UCG221TrackIRComponent::TickComponent()"));
 
 	ReceivePayloads(m_pSocket);
-
-	if (TrackIRData.NewDataFlag == false) {
+#ifdef _DEBUG
+	if (bNewDataFlag == false) {
 		TrackIRData.NPX = 0.1f;
 		TrackIRData.NPY = 0.2f;
 		TrackIRData.NPZ = 0.3f;
@@ -100,8 +101,7 @@ void UCG221TrackIRComponent::TickComponent(float DeltaTime, ELevelTick TickType,
 		TrackIRData.NPYaw = 2.0f;
 		TrackIRData.NPRoll = 3.0f;
 	}
-	
-
+#endif	
 	
 }
 
@@ -184,8 +184,8 @@ bool UCG221TrackIRComponent::ReceivePayloads(FSocket *_pSocket)
 			float tempFloat;
 			while ((pr.isOk()) && (msg = pr.popMessage()) != 0) {
 				if (msg->match("/TRACKIR").popStr(tempStr).isOkNoMoreArgs()) {
-					TrackIRData.NewDataFlag = true;
-
+					bNewDataFlag = true;
+					TrackIRData.TimeStamp = FDateTime::Now();
 					//UE_LOG(CG221ConnectorLog, Warning, TEXT("search TrackIR found = %s"), UTF8_TO_TCHAR(tempStr.c_str()));
 				}
 				if (msg->match("/NPX").popFloat(tempFloat).isOkNoMoreArgs()) {
@@ -218,4 +218,10 @@ bool UCG221TrackIRComponent::ReceivePayloads(FSocket *_pSocket)
 	} // if
 
 	return result;
+}
+
+bool UCG221TrackIRComponent::ResetNewDataFlag()
+{
+	bNewDataFlag = false;
+	return bNewDataFlag;		
 }
