@@ -1,0 +1,14 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-CG221Connector.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"E:\UE4_Create\CreateCG221Connector\Intermediate\Build\Win64\CreateCG221ConnectorEditor\Development\Engine\SharedPCH.Engine.h.obj"
+"E:\UE4_Create\CreateCG221Connector\Plugins\CG221Connector\Intermediate\Build\Win64\UE4Editor\Development\CG221Connector\Module.CG221Connector.cpp.obj"
+"E:\UE4_Create\CreateCG221Connector\Plugins\CG221Connector\Intermediate\Build\Win64\UE4Editor\Development\CG221Connector\Module.CG221Connector.gen.cpp.obj"
+"E:\UE4_Create\CreateCG221Connector\Plugins\CG221Connector\Intermediate\Build\Win64\UE4Editor\Development\CG221Connector\Default.rc2.res"
+/OUT:"E:\UE4_Create\CreateCG221Connector\Plugins\CG221Connector\Intermediate\Build\Win64\UE4Editor\Development\CG221Connector\UE4Editor-CG221Connector.lib"
+/INCLUDE:IMPLEMENT_MODULE_CG221Connector

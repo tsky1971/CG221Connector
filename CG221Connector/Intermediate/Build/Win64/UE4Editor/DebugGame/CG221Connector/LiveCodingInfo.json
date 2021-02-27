@@ -1,0 +1,13 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.CG221Connector.cpp.obj": [
+			"CG221Connector.cpp.obj",
+			"CG221TrackIRComponent.cpp.obj"
+		],
+		"Module.CG221Connector.gen.cpp.obj": [
+			"CG221Connector.init.gen.cpp.obj",
+			"CG221TrackIRComponent.gen.cpp.obj"
+		]
+	}
+}

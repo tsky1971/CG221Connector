@@ -1,0 +1,129 @@
+E:\UE4_Create\CreateCG221Connector\Plugins\CG221Connector\Intermediate\Build\Win64\UE4\Development\CG221Connector\Definitions.CG221Connector.h
+E:/UE4_Create/CreateCG221Connector/Plugins/CG221Connector/Source/CG221Connector/Private/CG221Connector.cpp
+E:\UE4_Create\CreateCG221Connector\Plugins\CG221Connector\Source\CG221Connector\Public\CG221Connector.h
+C:\Program Files\Epic Games\UE_4.23\Engine\Source\Runtime\Core\Public\Core.h
+c:\program files\epic games\ue_4.23\engine\source\runtime\core\public\Misc/MonolithicHeaderBoilerplate.h
+c:\program files\epic games\ue_4.23\engine\source\runtime\core\public\GenericPlatform/GenericPlatformNamedPipe.h
+c:\program files\epic games\ue_4.23\engine\source\runtime\core\public\HAL/PlatformNamedPipe.h
+c:\program files\epic games\ue_4.23\engine\source\runtime\core\public\Windows/WindowsPlatformNamedPipe.h
+c:\program files\epic games\ue_4.23\engine\source\runtime\core\public\GenericPlatform/GenericPlatformCriticalSection.h
+c:\program files\epic games\ue_4.23\engine\source\runtime\core\public\HAL/PlatformFile.h
+c:\program files\epic games\ue_4.23\engine\source\runtime\core\public\Windows/WindowsPlatformFile.h
+c:\program files\epic games\ue_4.23\engine\source\runtime\core\public\HAL/PlatformIncludes.h
+c:\program files\epic games\ue_4.23\engine\source\runtime\core\public\Misc/MonolithicHeaderBoilerplate.h
+c:\program files\epic games\ue_4.23\engine\source\runtime\core\public\Misc/MessageDialog.h
+c:\program files\epic games\ue_4.23\engine\source\runtime\core\public\ProfilingDebugging/ScopedDebugInfo.h
+c:\program files\epic games\ue_4.23\engine\source\runtime\core\public\ProfilingDebugging/ExternalProfiler.h
+c:\program files\epic games\ue_4.23\engine\source\runtime\core\public\Misc/StringUtility.h
+c:\program files\epic games\ue_4.23\engine\source\runtime\core\public\Serialization/NameAsStringProxyArchive.h
+c:\program files\epic games\ue_4.23\engine\source\runtime\core\public\Containers/MRUArray.h
+c:\program files\epic games\ue_4.23\engine\source\runtime\core\public\Containers/TransArray.h
+c:\program files\epic games\ue_4.23\engine\source\runtime\core\public\Containers/ArrayBuilder.h
+c:\program files\epic games\ue_4.23\engine\source\runtime\core\public\Misc/SingleThreadEvent.h
+c:\program files\epic games\ue_4.23\engine\source\runtime\core\public\HAL/ThreadManager.h
+c:\program files\epic games\ue_4.23\engine\source\runtime\core\public\Containers/StaticBitArray.h
+c:\program files\epic games\ue_4.23\engine\source\runtime\core\public\Containers/MapBuilder.h
+c:\program files\epic games\ue_4.23\engine\source\runtime\core\public\HAL/ThreadingBase.h
+c:\program files\epic games\ue_4.23\engine\source\runtime\core\public\Internationalization/TextLocalizationManagerGlobals.h
+c:\program files\epic games\ue_4.23\engine\source\runtime\core\public\Internationalization/Culture.h
+c:\program files\epic games\ue_4.23\engine\source\runtime\core\public\Logging/LogSuppressionInterface.h
+c:\program files\epic games\ue_4.23\engine\source\runtime\core\public\HAL/OutputDevices.h
+c:\program files\epic games\ue_4.23\engine\source\runtime\core\public\Logging/LogScopedVerbosityOverride.h
+c:\program files\epic games\ue_4.23\engine\source\runtime\core\public\Misc/OutputDeviceNull.h
+c:\program files\epic games\ue_4.23\engine\source\runtime\core\public\Misc/OutputDeviceMemory.h
+c:\program files\epic games\ue_4.23\engine\source\runtime\core\public\Misc/OutputDeviceFile.h
+c:\program files\epic games\ue_4.23\engine\source\runtime\core\public\Misc/OutputDeviceDebug.h
+c:\program files\epic games\ue_4.23\engine\source\runtime\core\public\Misc/OutputDeviceArchiveWrapper.h
+c:\program files\epic games\ue_4.23\engine\source\runtime\core\public\Misc/OutputDeviceAnsiError.h
+c:\program files\epic games\ue_4.23\engine\source\runtime\core\public\Misc/TimeGuard.h
+c:\program files\epic games\ue_4.23\engine\source\runtime\core\public\Serialization/LargeMemoryWriter.h
+c:\program files\epic games\ue_4.23\engine\source\runtime\core\public\Serialization/LargeMemoryData.h
+c:\program files\epic games\ue_4.23\engine\source\runtime\core\public\Serialization/LargeMemoryReader.h
+c:\program files\epic games\ue_4.23\engine\source\runtime\core\public\Serialization/BufferArchive.h
+c:\program files\epic games\ue_4.23\engine\source\runtime\core\public\Serialization/ArrayReader.h
+c:\program files\epic games\ue_4.23\engine\source\runtime\core\public\Serialization/ArrayWriter.h
+c:\program files\epic games\ue_4.23\engine\source\runtime\core\public\Serialization/BufferWriter.h
+c:\program files\epic games\ue_4.23\engine\source\runtime\core\public\Misc/WildcardString.h
+c:\program files\epic games\ue_4.23\engine\source\runtime\core\public\Containers/CircularQueue.h
+c:\program files\epic games\ue_4.23\engine\source\runtime\core\public\Misc/OutputDeviceHelper.h
+c:\program files\epic games\ue_4.23\engine\source\runtime\core\public\Misc/ScopedSlowTask.h
+c:\program files\epic games\ue_4.23\engine\source\runtime\core\public\Misc/CallbackDevice.h
+c:\program files\epic games\ue_4.23\engine\source\runtime\core\public\Misc/LocalTimestampDirectoryVisitor.h
+c:\program files\epic games\ue_4.23\engine\source\runtime\core\public\UObject/BlueprintsObjectVersion.h
+c:\program files\epic games\ue_4.23\engine\source\runtime\core\public\UObject/BuildObjectVersion.h
+c:\program files\epic games\ue_4.23\engine\source\runtime\core\public\UObject/CoreObjectVersion.h
+c:\program files\epic games\ue_4.23\engine\source\runtime\core\public\UObject/FrameworkObjectVersion.h
+c:\program files\epic games\ue_4.23\engine\source\runtime\core\public\UObject/MobileObjectVersion.h
+c:\program files\epic games\ue_4.23\engine\source\runtime\core\public\UObject/NetworkingObjectVersion.h
+c:\program files\epic games\ue_4.23\engine\source\runtime\core\public\UObject/OnlineObjectVersion.h
+c:\program files\epic games\ue_4.23\engine\source\runtime\core\public\UObject/PhysicsObjectVersion.h
+c:\program files\epic games\ue_4.23\engine\source\runtime\core\public\UObject/PlatformObjectVersion.h
+c:\program files\epic games\ue_4.23\engine\source\runtime\core\public\UObject/SequencerObjectVersion.h
+c:\program files\epic games\ue_4.23\engine\source\runtime\core\public\UObject/VRObjectVersion.h
+c:\program files\epic games\ue_4.23\engine\source\runtime\core\public\Misc/OutputDeviceConsole.h
+c:\program files\epic games\ue_4.23\engine\source\runtime\core\public\Misc/MonitoredProcess.h
+C:\Program Files\Epic Games\UE_4.23\Engine\Source\Runtime\Projects\Public\Interfaces/IPluginManager.h
+C:\Program Files\Epic Games\UE_4.23\Engine\Source\Runtime\Projects\Public\PluginDescriptor.h
+c:\program files\epic games\ue_4.23\engine\source\runtime\projects\public\ModuleDescriptor.h
+c:\program files\epic games\ue_4.23\engine\source\runtime\projects\public\CustomBuildSteps.h
+c:\program files\epic games\ue_4.23\engine\source\runtime\projects\public\LocalizationDescriptor.h
+c:\program files\epic games\ue_4.23\engine\source\runtime\projects\public\PluginReferenceDescriptor.h
+E:\UE4_Create\CreateCG221Connector\Plugins\CG221Connector\Source\ThirdParty\CG221ConnectorLibrary/CG221ConnectorLibrary.h
+E:/UE4_Create/CreateCG221Connector/Plugins/CG221Connector/Source/CG221Connector/Private/CG221TrackIRComponent.cpp
+E:\UE4_Create\CreateCG221Connector\Plugins\CG221Connector\Source\CG221Connector\Public\CG221TrackIRComponent.h
+C:\Program Files\Epic Games\UE_4.23\Engine\Source\Runtime\Sockets\Public\Sockets.h
+C:\Program Files\Epic Games\UE_4.23\Engine\Source\Runtime\Sockets\Public\SocketSubsystem.h
+c:\program files\epic games\ue_4.23\engine\source\runtime\sockets\public\AddressInfoTypes.h
+C:\Program Files\Epic Games\UE_4.23\Engine\Source\Runtime\Networking\Public\Networking.h
+C:\Program Files\Epic Games\UE_4.23\Engine\Source\Runtime\Core\Public\Misc/MonolithicHeaderBoilerplate.h
+c:\program files\epic games\ue_4.23\engine\source\runtime\networking\public\Interfaces/IPv4/IPv4SubnetMask.h
+c:\program files\epic games\ue_4.23\engine\source\runtime\networking\public\Interfaces/IPv4/IPv4Address.h
+c:\program files\epic games\ue_4.23\engine\source\runtime\networking\public\Interfaces/IPv4/IPv4Endpoint.h
+c:\program files\epic games\ue_4.23\engine\source\runtime\networking\public\Interfaces/IPv4/IPv4Subnet.h
+c:\program files\epic games\ue_4.23\engine\source\runtime\networking\public\Interfaces/Steam/SteamEndpoint.h
+c:\program files\epic games\ue_4.23\engine\source\runtime\networking\public\Interfaces/INetworkingModule.h
+c:\program files\epic games\ue_4.23\engine\source\runtime\networking\public\Common/TcpSocketBuilder.h
+c:\program files\epic games\ue_4.23\engine\source\runtime\networking\public\Common/TcpListener.h
+c:\program files\epic games\ue_4.23\engine\source\runtime\networking\public\Common/UdpSocketReceiver.h
+c:\program files\epic games\ue_4.23\engine\source\runtime\networking\public\Common/UdpSocketSender.h
+c:\program files\epic games\ue_4.23\engine\source\runtime\networking\public\Common/UdpSocketBuilder.h
+E:\UE4_Create\CreateCG221Connector\Plugins\CG221Connector\Intermediate\Build\Win64\UE4\Inc\CG221Connector\CG221TrackIRComponent.generated.h
+e:\ue4_create\createcg221connector\plugins\cg221connector\source\cg221connector\private\oscpkt.hh
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\INCLUDE\cassert
+C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\ucrt\assert.h
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\INCLUDE\string
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\INCLUDE\istream
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\INCLUDE\ostream
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\INCLUDE\ios
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\INCLUDE\xlocnum
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\INCLUDE\cmath
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\INCLUDE\xtgmath.h
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\INCLUDE\streambuf
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\INCLUDE\xiosbase
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\INCLUDE\xlocale
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\INCLUDE\stdexcept
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\INCLUDE\xstring
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\INCLUDE\xmemory0
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\INCLUDE\cstdint
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\INCLUDE\limits
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\INCLUDE\ymath.h
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\INCLUDE\cfloat
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\INCLUDE\typeinfo
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\INCLUDE\vcruntime_typeinfo.h
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\INCLUDE\vcruntime_exception.h
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\INCLUDE\eh.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\ucrt\corecrt_terminate.h
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\INCLUDE\xlocinfo
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\INCLUDE\xlocinfo.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\ucrt\locale.h
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\INCLUDE\memory
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\INCLUDE\xmemory
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\INCLUDE\xfacet
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\INCLUDE\system_error
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\INCLUDE\cerrno
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\INCLUDE\xcall_once.h
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\INCLUDE\xerrc.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\ucrt\share.h
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\INCLUDE\xstring_insert.h
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\INCLUDE\vector
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\INCLUDE\list

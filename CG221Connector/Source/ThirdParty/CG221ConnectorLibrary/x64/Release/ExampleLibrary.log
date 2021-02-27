@@ -1,0 +1,8 @@
+﻿  CG221ConnectorLibrary.cpp
+     Creating library E:\UE4_Create\CreateCG221Connector\Plugins\CG221Connector\Source\ThirdParty\CG221ConnectorLibrary\x64\Release\CG221ConnectorLibrary.lib and object E:\UE4_Create\CreateCG221Connector\Plugins\CG221Connector\Source\ThirdParty\CG221ConnectorLibrary\x64\Release\CG221ConnectorLibrary.exp
+  Generating code
+  Previous IPDB not found, fall back to full compilation.
+  All 1 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  ExampleLibrary.vcxproj -> E:\UE4_Create\CreateCG221Connector\Plugins\CG221Connector\Source\ThirdParty\CG221ConnectorLibrary\x64\Release\CG221ConnectorLibrary.dll
+          1 Datei(en) kopiert.

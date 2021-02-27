@@ -1,7 +1,7 @@
 {
-	"BuildId": "4541578",
+	"BuildId": "14830424",
 	"Modules": 
 	{
-		"CG211Connector": "UE4Editor-CG211Connector.dll"
+		"CG221Connector": "UE4Editor-CG221Connector.dll"
 	}
 }

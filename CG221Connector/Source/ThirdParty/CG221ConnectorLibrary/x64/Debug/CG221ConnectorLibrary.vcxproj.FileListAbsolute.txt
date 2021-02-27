@@ -1,0 +1,2 @@
+E:\UE4_Create\CreateCG221Connector\Plugins\CG221Connector\Source\ThirdParty\CG221ConnectorLibrary\x64\Debug\CG221ConnectorLibrary.dll
+E:\UE4_Create\CreateCG221Connector\Plugins\CG221Connector\Source\ThirdParty\CG221ConnectorLibrary\x64\Debug\CG221ConnectorLibrary.pdb
