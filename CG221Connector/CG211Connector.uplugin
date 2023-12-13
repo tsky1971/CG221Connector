@@ -15,7 +15,10 @@
 		{
 			"Name": "CG211Connector",
 			"Type": "Runtime",
-			"LoadingPhase": "Default"
+			"LoadingPhase": "Default",
+			"PlatformAllowList": [
+				"Win64", "Android"
+			]
 		}
 	],
 	"DocsURL": "",

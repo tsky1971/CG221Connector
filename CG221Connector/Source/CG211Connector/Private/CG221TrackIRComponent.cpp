@@ -1,5 +1,5 @@
 /**
-	Copyright (c) 2015, tsky
+	Copyright (c) 2023, tsky (thomas.kollakowsky@gmail.com)
 	All rights reserved.
 
 	Redistribution and use in source and binary forms, with or without

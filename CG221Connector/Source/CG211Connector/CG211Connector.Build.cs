@@ -37,8 +37,7 @@ public class CG211Connector : ModuleRules
                 "InputCore",
                 "Slate",
                 "SlateCore",
-				"Sockets",
-				"Networking"
+				"Sockets"
 				// ... add other public dependencies that you statically link with here ...
 			}
 			);
