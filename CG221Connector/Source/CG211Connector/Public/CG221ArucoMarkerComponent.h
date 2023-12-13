@@ -30,63 +30,64 @@
 #include "Sockets.h"
 #include "SocketSubsystem.h"
 #include "Networking.h"
+#include "Templates/SharedPointer.h"
 #include "Components/ActorComponent.h"
 #include "Runtime/Core/Public/Misc/DateTime.h"
 
-#include "CG221TrackIRComponent.generated.h"
+#include "CG221ArucoMarkerComponent.generated.h"
 
 USTRUCT(BlueprintType)
-struct FTrackIR
+struct FArucoMarker
 {
 	GENERATED_USTRUCT_BODY()
 
 	// Pos X
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "TrackIR")
-	float NPX;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "ArucoMarker")
+	float PosX;
 	// Pos Y
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "TrackIR")
-	float NPY;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "ArucoMarker")
+	float PosY;
 	// Pos Z
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "TrackIR")
-	float NPZ;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "ArucoMarker")
+	float PosZ;
 
 	// Pitch Head
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "TrackIR")
-	float NPPitch;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "ArucoMarker")
+	float AngX;
 	// Yaw Head
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "TrackIR")
-	float NPYaw;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "ArucoMarker")
+	float AngY;
 	// Roll Head
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "TrackIR")
-	float NPRoll;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "ArucoMarker")
+	float AngZ;
 
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "TrackIR")
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "ArucoMarker")
 	FDateTime TimeStamp;
 };
 
 
-extern FCriticalSection g_CriticalSectionTrackIR;
+extern FCriticalSection g_CriticalSectionArucoMarker;
 
 
 UCLASS( ClassGroup=(Custom), meta=(BlueprintSpawnableComponent) )
-class /*CG221TRACKIRCOMPONENT_API*/ UCG221TrackIRComponent : public UActorComponent
+class /*CG221ArucoMarkerCOMPONENT_API*/ UCG221ArucoMarkerComponent : public UActorComponent
 {	
 	GENERATED_BODY()
 
 public:
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "TrackIR")
-	FTrackIR TrackIRData;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "ArucoMarker")
+	FArucoMarker ArucoMarkerData;
 	
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "TrackIR")
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "ArucoMarker")
 	bool bNewDataFlag;
 
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "TrackIR")
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "ArucoMarker")
 	int UdpPort;
 
 	FSocket *m_pSocket;
 
 public:	
-	UCG221TrackIRComponent(const FObjectInitializer & ObjectInitializer);
+	UCG221ArucoMarkerComponent(const FObjectInitializer & ObjectInitializer);
 
 	virtual void OnRegister() override;
 
@@ -106,6 +107,6 @@ public:
 	bool DestroySocket(FSocket *_pSocket);
 	bool ReceivePayloads(FSocket *_pSocket);
 
-	UFUNCTION(BluePrintCallable, Category = "TrackIR")
+	UFUNCTION(BluePrintCallable, Category = "ArucoMarker")
 	bool ResetNewDataFlag();
 };

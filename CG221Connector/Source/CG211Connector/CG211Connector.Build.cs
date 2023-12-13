@@ -8,6 +8,8 @@ public class CG211Connector : ModuleRules
 	{
         PCHUsage = ModuleRules.PCHUsageMode.UseExplicitOrSharedPCHs;
 
+		IncludeOrderVersion = EngineIncludeOrderVersion.Latest;
+
         PublicIncludePaths.AddRange(
 			new string[] {
                 "CG211Connector/Public",
@@ -30,21 +32,13 @@ public class CG211Connector : ModuleRules
 			new string[]
 			{
 				"Core",
+				"CoreUObject",
 				"Engine",
                 "InputCore",
                 "Slate",
                 "SlateCore",
-                "EditorStyle",
-                "CoreUObject",
 				"Sockets",
-				"Networking",
-				"RHI",
-				"RenderCore",
-				"Renderer",
-				"ShaderCore",
-				"HeadMountedDisplay",
-				"Slate",
-				"SlateCore"
+				"Networking"
 				// ... add other public dependencies that you statically link with here ...
 			}
 			);

@@ -2,17 +2,24 @@
 	"FileVersion": 3,
 	"FriendlyName": "CG211Connector",
 	"Version": 1,
-	"VersionName": "1.0",
+	"VersionName": "1.1",
 	"CreatedBy": "tsky",
 	"CreatedByURL": "",
 	"Category": "CG221",
 	"Description": "",
+	"CanContainContent": true,
+	"IsBetaVersion": true,
+	"IsExperimentalVersion": true,
 	"EnabledByDefault": false,
 	"Modules": [
 		{
 			"Name": "CG211Connector",
-			"Type": "Developer",
+			"Type": "Runtime",
 			"LoadingPhase": "Default"
 		}
-	]
+	],
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"Installed": false
 }

@@ -30,7 +30,7 @@
 #include "CG211ConnectorPrivatePCH.h"
 
 
-FCriticalSection g_CriticalSectionTrackIR;
+FCriticalSection g_CriticalSectionArucoMarker;
 FTrackIR g_TrackIR;
 
 UCG221TrackIRComponent::UCG221TrackIRComponent(const FObjectInitializer & ObjectInitializer) :
@@ -190,27 +190,27 @@ bool UCG221TrackIRComponent::ReceivePayloads(FSocket *_pSocket)
 				}
 				if (msg->match("/NPX").popFloat(tempFloat).isOkNoMoreArgs()) {
 					TrackIRData.NPX = tempFloat;
-					//UE_LOG(CG221ConnectorLog, Warning, TEXT("search NPX = %f"), g_TrackIR.NPX);
+					UE_LOG(CG221ConnectorLog, Warning, TEXT("search NPX = %f"), g_TrackIR.NPX);
 				}
 				if (msg->match("/NPY").popFloat(tempFloat).isOkNoMoreArgs()) {
 					TrackIRData.NPY = tempFloat;
-					//UE_LOG(CG221ConnectorLog, Warning, TEXT("search NPY = %f"), g_TrackIR.NPY);
+					UE_LOG(CG221ConnectorLog, Warning, TEXT("search NPY = %f"), g_TrackIR.NPY);
 				}
 				if (msg->match("/NPZ").popFloat(tempFloat).isOkNoMoreArgs()) {
 					TrackIRData.NPZ = tempFloat;
-					//UE_LOG(CG221ConnectorLog, Warning, TEXT("search NPZ = %f"), g_TrackIR.NPZ);
+					UE_LOG(CG221ConnectorLog, Warning, TEXT("search NPZ = %f"), g_TrackIR.NPZ);
 				}
 				if (msg->match("/NPPitch").popFloat(tempFloat).isOkNoMoreArgs()) {
 					TrackIRData.NPPitch = tempFloat;
-					//UE_LOG(CG221ConnectorLog, Warning, TEXT("search NPPitch = %f"), g_TrackIR.NPPitch);
+					UE_LOG(CG221ConnectorLog, Warning, TEXT("search NPPitch = %f"), g_TrackIR.NPPitch);
 				}
 				if (msg->match("/NPYaw").popFloat(tempFloat).isOkNoMoreArgs()) {
 					TrackIRData.NPYaw = tempFloat;
-					//UE_LOG(CG221ConnectorLog, Warning, TEXT("search NPYaw = %f"), g_TrackIR.NPYaw);
+					UE_LOG(CG221ConnectorLog, Warning, TEXT("search NPYaw = %f"), g_TrackIR.NPYaw);
 				}
 				if (msg->match("/NPRoll").popFloat(tempFloat).isOkNoMoreArgs()) {
 					TrackIRData.NPRoll = tempFloat;
-					//UE_LOG(CG221ConnectorLog, Warning, TEXT("search NPRoll = %f"), g_TrackIR.NPRoll);
+					UE_LOG(CG221ConnectorLog, Warning, TEXT("search NPRoll = %f"), g_TrackIR.NPRoll);
 				}
 			} // while
 		} // if pending data
